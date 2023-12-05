@@ -1,0 +1,47 @@
+@use '../../styles/index.scss' as *;
+.yourcourse{
+    &__inner{
+        border-color:$color-ff1472;
+    }
+    p{
+        color:$color-333333;
+    }
+    li{
+        color:$color-333333;
+        &::before{
+            content:'';
+            width:1.6rem;
+            height:1.6rem;
+            background-image:url(../../public/images/check-circle.svg);
+            background-position:center;
+            background-repeat:no-repeat;
+            background-size:100% 100%;
+            display:inline-block;
+            margin-right:.5rem;
+            flex:0 0 1.6rem;
+        }
+    }
+}
+.title{
+    color:$color-333333;
+    &__sub{
+        color:$color-ff1472;
+    }
+}
+.thumbnail{
+    width:22.1rem;
+    height:16.8rem;
+    background-image:url(../../public/images/thumb.png);
+}
+.curriculum{
+    background-color:$color-ff1472;
+    min-width:17rem;
+    &__icon{
+        width:2.1rem;
+        height:2.7rem;
+        background-image:url(../../public/images/curriculum.svg);
+    }
+}
+.notstarted{
+    background-color:$color-ffebb3;
+}

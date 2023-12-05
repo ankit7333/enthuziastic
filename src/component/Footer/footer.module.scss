@@ -1,0 +1,33 @@
+@use '../../styles/index.scss' as *;
+
+.footer{
+  background-color:$color-6300df;
+  &__logo{
+    width:22.8rem;
+    height:4rem;
+    background-image:url(../../public/images/footer_logo.svg);
+  }
+  li{
+    padding:1rem 0;
+  }
+  &__bottom{
+    border-color:$color-e5e7eb;
+  }
+}
+.linkedin{
+  width:2.4rem;
+  height:2.4rem;
+  background-image:url(../../public/images/LinkedIn_White.svg);
+}
+.facebook{
+  @extend .linkedin;
+  background-image:url(../../public/images/Facebook_White.svg);
+}
+.twitter{
+  @extend .linkedin;
+  background-image:url(../../public/images/twitter.svg);
+}
+.youtube{
+  @extend .linkedin;
+  background-image:url(../../public/images/YouTube_White.svg);
+}

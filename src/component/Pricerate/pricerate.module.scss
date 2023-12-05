@@ -1,0 +1,29 @@
+@use '../../styles/index.scss' as *;
+
+.pricerate{
+  &__left{
+    p{
+      color:$color-111928;
+    }
+    span{
+      color:$color-717171;
+    }
+  }
+}
+.button{
+  height:4.8rem;
+  &__primary{
+    background-color:$color-ff1472;
+    border-color:$color-ff1472;
+    color:$color-ffffff;
+  }
+  &__secondary{
+    background-color:transparent;
+    border-color:$color-ff1472;
+    color:$color-ff1472;
+    &:hover{
+      @extend .button__primary;
+      transition:all .8s linear;
+    }
+  }
+}

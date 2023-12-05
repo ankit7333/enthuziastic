@@ -1,0 +1,107 @@
+@use '../../styles/index.scss' as *;
+
+.batch{
+  background-color:$color-fff1f7;
+  width:32.4rem;
+  label{
+    color:$color-333333;
+    background-color:rgba($color:$color-ffbc00, $alpha:.3);
+  }
+  &__ul{
+    border-color:$color-c4c4c4;
+    li{
+      color:$color-333333;
+      &:last-child{
+        border-bottom:.1rem solid $color-c4c4c4;
+        margin-bottom:2rem;
+        padding-bottom:2rem;
+      }
+    }
+  }
+}
+.play{
+  width:3rem;
+  height:3rem;
+  background-image:url(../../public/images/playsessions.svg);
+  flex:0 0 3rem;
+}
+.learner{
+  @extend .play;
+  background-image:url(../../public/images/learners.svg);
+}
+.language{
+  @extend .play;
+  background-image:url(../../public/images/language.svg);
+}
+.agegroup{
+  @extend .play;
+  background-image:url(../../public/images/age.svg);
+}
+.startdate{
+  @extend .play;
+  background-image:url(../../public/images/calendar.svg);
+}
+.week{
+  border-color:$color-c4c4c4;
+  li{
+    color:$color-717171;
+    background-color:$color-ffffff;
+    border-color:$color-c4c4c4;
+    aspect-ratio:1/1;
+    &:after{
+      visibility:hidden;
+      content:attr(data-attribute);
+      position:absolute;
+      top:4rem;
+      left:50%;
+      transform:translateX(-50%);
+      color:$color-717171;
+      text-align:center;
+      font-size:1.2rem;
+    }
+    &.active, &.hover{
+      background-color:$color-ff1472;
+      color:$color-ffffff;
+      border-color:$color-ff1472;
+      &:after{
+        visibility:visible;
+      }
+    }
+  }
+}
+.rating{
+  &__title{
+    color:$color-6b7280;
+  }
+}
+.user{
+  &__img{
+    width:4rem;
+    height:4rem;
+    background-image:url(../../public/images/host.png);
+  }
+  &__img2{
+    left:-1rem;
+  }
+  &__img3{
+    left:-2rem;
+  }
+  &__text{
+    color:$color-111928;
+  }
+  &__rate{
+    color:$color-ffbf00;
+  }
+}
+.star{
+  width:1.3rem;
+  height:1.3rem;
+  line-height:2.4rem;
+  background-image:url(../../public/images/star.svg);
+  &__stroke{
+    background-image:url(../../public/images/star-border.svg);
+  }
+  &__wrap{
+    top:-2px;
+  }
+}

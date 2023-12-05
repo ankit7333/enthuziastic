@@ -1,0 +1,13 @@
+@use '../../styles/index.scss' as *;
+.Curriculum{
+
+}
+.title{
+    color:$color-333333;
+}
+.content{
+    border-color:$color-c4c4c4;
+    p{
+        margin-bottom:4rem;
+    }
+}

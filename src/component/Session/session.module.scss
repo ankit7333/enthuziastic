@@ -1,0 +1,19 @@
+@use '../../styles/index.scss' as *;
+
+.session{
+  background-color:$color-6300df;
+  li{
+    &::before{
+      content: attr(data-attribute);
+      width:3.8rem;
+      height:3.8rem;
+      border-radius:50%;
+      color:$color-6300df;
+      background-color:#ffffff;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      margin-right:1.5rem;
+    }
+  }
+}

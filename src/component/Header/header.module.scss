@@ -1,0 +1,39 @@
+@use '../../styles/index.scss' as *;
+.header{
+  &__inner{
+    
+  }
+  &__left{
+    
+  }
+  &__right{
+    
+  }
+}
+.logo{ 
+    width:24.2rem;
+    height:3.8rem;
+    background-image:url(../../public/images/logo.svg);
+}
+.login{
+  color:$color-333333;
+}
+.getstarted{
+  background-color:$color-ff1472;
+  width:12.4rem;
+  height:4.4rem;
+}
+.whatsapp{
+  width:3.8rem;
+  height:3.8rem;
+  background-image:url(../../public/images/logos_whatsapp-icon.svg);
+}
+.linkedin{
+  width:2.4rem;
+  height:2.4rem;
+  background-image:url(../../public/images/LinkedIn.svg);
+}
+.facebook{
+  @extend .linkedin;
+  background-image:url(../../public/images/Facebook.png);
+}
