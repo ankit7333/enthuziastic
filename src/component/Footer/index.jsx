@@ -9,8 +9,8 @@ export default function Footer() {
                 <div className={`container mx-auto flex flex-col justify-between`}>
                     <div className={`flex justify-between ${styles.footer__top}`}>
                         <div className={`flex-1 w-25 mr-20 ${styles.footer__left}`}>
-                            <a href='www.google.com' className={`bg-no-repeat bg-center bg-cover inline-block ${styles.footer__logo}`}></a>
-                            {/* <span className={`bg-no-repeat bg-center bg-cover inline-block ${styles.footer__logo}`} /> */}
+                            {/* <a href='www.google.com' className={`bg-no-repeat bg-center bg-cover inline-block ${styles.footer__logo}`}></a> */}
+                            <span className={`bg-no-repeat bg-center bg-cover inline-block ${styles.footer__logo}`} />
                             <p className={`text-white font-medium mt-5 mb-5`}>EnthuZiastic is a vibrant and dynamic community dedicated to fostering a passion for learning and personal growth. </p>
                             <ul className={`flex items-center gap-5`}>
                                 <li>
