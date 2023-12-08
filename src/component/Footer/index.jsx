@@ -15,22 +15,22 @@ export default function Footer() {
                             <p className={`text-white font-medium mt-5 mb-5`}>EnthuZiastic is a vibrant and dynamic community dedicated to fostering a passion for learning and personal growth. </p>
                             <ul className={`flex items-center gap-5`}>
                                 <li>
-                                    <a href='#'>
+                                    <a href='/'>
                                         <span className={`bg-no-repeat bg-center bg-cover inline-block ${styles.linkedin}`} />
                                     </a>
                                 </li>
                                 <li>
-                                    <a href='#'>
+                                    <a href='/'>
                                         <span className={`bg-no-repeat bg-center bg-cover inline-block ${styles.twitter}`} />
                                     </a>
                                 </li>
                                 <li>
-                                    <a href='#'>
+                                    <a href='/'>
                                         <span className={`bg-no-repeat bg-center bg-cover inline-block ${styles.facebook}`} />
                                     </a>
                                 </li>
                                 <li>
-                                    <a href='#'>
+                                    <a href='/'>
                                         <span className={`bg-no-repeat bg-center bg-cover inline-block ${styles.youtube}`} />
                                     </a>
                                 </li>
@@ -39,32 +39,32 @@ export default function Footer() {
                         <div className={`flex-auto w-70 flex ${styles.footer__right}`}>
                             <ul className={`flex-auto w-25`}>
                                 <li><b className={`text-white font-extrabold text-2xl`}>COMPANY</b></li>
-                                <li><a className={`text-white`} href="#">About</a></li>
-                                <li><a className={`text-white`} href="#">Premium</a></li>
-                                <li><a className={`text-white`} href="#">Blog</a></li>
-                                <li><a className={`text-white`} href="#">Affiliate Program</a></li>
-                                <li><a className={`text-white`} href="#">Get Coupon</a></li>
+                                <li><a className={`text-white`} href="/">About</a></li>
+                                <li><a className={`text-white`} href="/">Premium</a></li>
+                                <li><a className={`text-white`} href="/">Blog</a></li>
+                                <li><a className={`text-white`} href="/">Affiliate Program</a></li>
+                                <li><a className={`text-white`} href="/">Get Coupon</a></li>
                             </ul>
                             <ul className={`flex-auto w-25`}>
                                 <li><b className={`text-white font-extrabold text-2xl`}>HELP AND SUPPORT</b></li>
-                                <li><a className={`text-white`} href="#">Contact Us</a></li>
-                                <li><a className={`text-white`} href="#">Knowledge Center</a></li>
-                                <li><a className={`text-white`} href="#">Premium Support</a></li>
-                                <li><a className={`text-white`} href="#">Sponsorships</a></li>
+                                <li><a className={`text-white`} href="/">Contact Us</a></li>
+                                <li><a className={`text-white`} href="/">Knowledge Center</a></li>
+                                <li><a className={`text-white`} href="/">Premium Support</a></li>
+                                <li><a className={`text-white`} href="/">Sponsorships</a></li>
                             </ul>
                             <ul className={`flex-auto w-25`}>
                                 <li><b className={`text-white font-extrabold text-2xl`}>RESOURCES</b></li>
-                                <li><a className={`text-white`} href="#">Third-Party Tools</a></li>
-                                <li><a className={`text-white`} href="#">Illustrations</a></li>
-                                <li><a className={`text-white`} href="#">Themesberg</a></li>
-                                <li><a className={`text-white`} href="#">Bluehost</a></li>
-                                <li><a className={`text-white`} href="#">Stock Photos</a></li>
+                                <li><a className={`text-white`} href="/">Third-Party Tools</a></li>
+                                <li><a className={`text-white`} href="/">Illustrations</a></li>
+                                <li><a className={`text-white`} href="/">Themesberg</a></li>
+                                <li><a className={`text-white`} href="/">Bluehost</a></li>
+                                <li><a className={`text-white`} href="/">Stock Photos</a></li>
                             </ul>
                             <ul className={`flex-auto w-25`}>
                                 <li><b className={`text-white font-extrabold text-2xl`}>LEGAL</b></li>
-                                <li><a className={`text-white`} href="#">Privacy Policy</a></li>
-                                <li><a className={`text-white`} href="#">Terms &amp; Conditions</a></li>
-                                <li><a className={`text-white`} href="#">EULA</a></li>
+                                <li><a className={`text-white`} href="/">Privacy Policy</a></li>
+                                <li><a className={`text-white`} href="/">Terms &amp; Conditions</a></li>
+                                <li><a className={`text-white`} href="/">EULA</a></li>
                             </ul>
                         </div>
                     </div>
