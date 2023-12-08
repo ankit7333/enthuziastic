@@ -9,7 +9,7 @@ export default function Header() {
             <div className={`py-3 ${styles.header}`}>
                 <div className={`container mx-auto flex items-center justify-between ${styles.header__inner}`}>
                     <div className={`${styles.header__left}`}>
-                        <a className={`bg-no-repeat bg-center bg-cover inline-block ${styles.logo}`} href='javascript:void(0)' />
+                        <a className={`bg-no-repeat bg-center bg-cover inline-block ${styles.logo}`} href='/#' />
                     </div>
                     <div className={`${styles.header__middle}`}>
                         <Nav />
